@@ -12,8 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:text="Start New Activity"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="108dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/finish_activity_button"
@@ -22,5 +23,6 @@
         android:layout_marginBottom="152dp"
         android:text="Go Back"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="148dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </android.support.constraint.ConstraintLayout>
